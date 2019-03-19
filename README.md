@@ -1,2 +1,2 @@
-# Example project in kotlin with spring boot + clean architecture 
+## Example project in kotlin with spring boot + clean architecture + docker with GraalVM 
 
