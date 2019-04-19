@@ -4,10 +4,19 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication(scanBasePackages = ["io.garu.springbootcleankt"])
-class SpringBootCleanKtApplication
+class SpringBootCleanKtApplication {
 
-fun main(args: Array<String>) {
-    runApplication<SpringBootCleanKtApplication>(*args) {
-        setLogStartupInfo(true)
+    companion object {
+
+        @JvmStatic
+        fun main(args: Array<String>) {
+            runApplication<SpringBootCleanKtApplication>(*args) {
+                setLogStartupInfo(true)
+            }
+        }
+
     }
+
+
 }
+
